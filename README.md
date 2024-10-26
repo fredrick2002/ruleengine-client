@@ -9,8 +9,8 @@
 1. **Clone the Repository**
    Open your terminal and navigate to the directory where you want to clone the repository. Run the following command:
    ```bash
-   git clone https://github.com/fredrick2002/ruleengine-server
-   cd ruleeengine-server
+   git clone https://github.com/fredrick2002/ruleengine-client
+   cd ruleeengine-client
    ```
 
 2. **Build the Docker Image**
