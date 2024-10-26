@@ -11,7 +11,7 @@ docker build -t ruleengine-client .
 
 4. Make sure port 80 is free 
 
-5. run the image in docker
+5. run the image in docker(type the command)
 
 ```
 docker run -p 80:80 ruleengine-client
