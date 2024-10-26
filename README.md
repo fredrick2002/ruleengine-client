@@ -1,8 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Application 1 : Rule Engine with AST(Client)
+   
+1. After clone open up the terminal from that directory
 
-Currently, two official plugins are available:
+3. Then type this command to build the docker image(Takes some time to build)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+docker build -t ruleengine-client .
+```
+
+4. Make sure port 80 is free 
+
+5. run the image in docker
+
+```
+docker run -p 80:80 ruleengine-client
+```
+
+6. now open up browser and go to http://localhost/
+
+7. Next run the backend server https://github.com/fredrick2002/ruleengine-server.git
